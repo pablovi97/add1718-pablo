@@ -3,7 +3,7 @@
 ## SERVIDOR LTSP
 
 **1/Preparando la maquina**  
-Primero creamos la maquina servidor con dos interfaces de red una externa y otra interna.  
+Primero creamos la maquina servidor con dos interfaces de red una externa y otra interna.
 
 ![imagen](IMAGENES/servidor interna.png)  
 
@@ -40,7 +40,7 @@ la de red externa la ponermos en modo adaptador puente y la segunda es la que de
   ![imagen](IMAGENES/comando para crear imagen.png)     
 
   y la imagen creada  
-  
+
   ![imagen](IMAGENES/imagen creada.png)
 
 antes consultamos informacion con ltsp-info  
