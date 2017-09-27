@@ -2,12 +2,12 @@
 
 ## SERVIDOR LTSP
 
-**1/Preparando la maquina**  
+**1 Preparando la maquina**  
 Primero creamos la maquina servidor con dos interfaces de red una externa y otra interna.
 
-![imagen](IMAGENES/servidor interna.png)  
+![imagen](./IMAGENES/servidor interna.png)  
 
-![imagen](IMAGENES/servidor puente.png)
+![imagen](./IMAGENES/servidor puente.png)
 
 la de red externa la ponermos en modo adaptador puente y la segunda es la que debe conectarse al cliente ,esta debe ser estatica y estar en la misma qçred que el cliente
 
