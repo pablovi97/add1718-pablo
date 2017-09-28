@@ -1,9 +1,10 @@
-# Cientes ligeros#
+# Cientes ligeros #
 
 ## SERVIDOR LTSP
 
 **1 Preparando la maquina**  
-Primero creamos la maquina servidor con dos interfaces de red una externa y otra interna.
+
+ Primero creamos la maquina servidor con dos interfaces de red una externa y otra interna.
 
 ![imagen](./IMAGENES/servidorinterna.png)  
 
@@ -25,11 +26,11 @@ la de red externa la ponermos en modo adaptador puente y la segunda es la que de
   **3/instalar el servicio LTSP**  
   Instalar el servidor SSH apt-get install openssh-server, para permitir acceso remoto a la máquina.  
 
-  ![imagen](IMAGENES/3.3apt-get installopenssh.png)
+  ![imagen](IMAGENES/3.3ssh.png)
 
   Modificamos SSH con PermitRootLogin Yes.    
 
-  ![imagen](IMAGENES/3.3permit rootloginyes.png)  
+  ![imagen](IMAGENES/3.3proot.png)  
 
  instalamos el servidor del cliente ligero    
 
@@ -78,4 +79,6 @@ Reiniciamos el servidor, y comprobamos que los servicios están corriendo
 Con el servidor encendido, iniciar la MV cliente desde red/PXE:
 
   Comprobar que todo funciona correctamente.  
-  ![imagen](IMAGENES/cliente.png)  
+  ![imagen](IMAGENES/cliente.png)    
+
+tenemos el cliente de 64 y no se nos puedo arreglar el fallo de la doble pantalla
