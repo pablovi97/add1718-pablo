@@ -10,7 +10,7 @@
 
 ![imagen](./IMAGENES/servidorpuente.png)
 
-la de red externa la ponermos en modo adaptador puente y la segunda es la que debe conectarse al cliente ,esta debe ser estatica y estar en la misma qçred que el cliente
+la de red externa la ponermos en modo adaptador puente y la segunda es la que debe conectarse al cliente ,esta debe ser estatica y estar en la misma red que el cliente
 
   **2/Instalacion de SSOO**  
   instalamos xubuntu  
