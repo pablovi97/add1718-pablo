@@ -1,0 +1,21 @@
+## Conexiones remotas con VNC
+
+* ####  Paso 1/ conexiones remotas
+  * Tenemos que tener dos maquinas de windows con vnc que sean cliente y servidor
+
+    * ips de maquinas de windows:
+
+servidor:
+![imagen](./IMG/ipwindosVNC.png)
+cliente:
+![imagen](./IMG/ipvnc2.png)
+
+
+  * Dos maquinas de open suse con vnc tanto cliente como servidor
+servidor:
+
+       * ips maquinas open suse :
+![imagen](./IMG/ipopensusevnc.png)
+cliente:
+![imagen](./IMG/1.png)
+* ####  Paso 2/ descargamos Tight VNC en las maquinas de windows
