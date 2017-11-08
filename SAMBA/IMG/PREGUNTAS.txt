@@ -1,0 +1,5 @@
+1- NO
+
+2-SI
+
+3-dejandolos como usuarios de samba y quitandolos del sistema
