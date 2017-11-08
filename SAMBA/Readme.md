@@ -224,7 +224,8 @@ y con net use lo Comprobamos
 
 ![imagen](./IMG/3.2.4.PNG)     
 
-* y comprobamos   
+* y comprobamos     
+
 ![imagen](./IMG/3.2.5.PNG)   
 
 * Capturar imagen de los siguientes comandos para comprobar los resultados:
