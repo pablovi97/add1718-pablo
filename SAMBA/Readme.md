@@ -1,4 +1,5 @@
-# *Samba con  Open Suse y windows 7*
+# *Samba con  Open Suse y windows 7*  
+
 ## PASO 1-.Creamos el servidor samba en open suse
 >Configuramos la maquina de manera que se llame  smb-server17  
 
