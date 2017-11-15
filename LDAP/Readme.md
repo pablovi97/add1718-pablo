@@ -72,7 +72,8 @@
 * Comprobacion:    
 
 * nmap -Pn ldap-serverXX | grep -P '389|636', para comprobar que el servidor LDAP es accesible desde el cliente.  
-//////////////FALTA ALGO////  
+
+![img](./IMG/2.1.2.png)   
 
 * Usar gq en el cliente para comprobar que se han creado bien los usuarios.
 
@@ -84,3 +85,33 @@
 
 
 * Instalamos cliente LDAP
+> Ir a Yast -> LDAP y cliente Kerberos  
+
+![img](./IMG/2.2.1.png)   
+
+![img](./IMG/2.2.2.png)   
+
+
+* Comprobamos desde el cliente:  
+  * getent passwd pirata21:  
+
+![img](./IMG/2.3.png)  
+
+  * getent group piratas2  
+
+![img](./IMG/2.3.1.png)
+  * id pirata21    
+
+![img](./IMG/2.3.2.png)
+  * finger pirata21
+
+![img](./IMG/2.3.3.png)
+  * cat /etc/passwd | grep pirata21
+  (no me funciono)  
+
+  * cat /etc/group | grep piratas2  
+  (no me funciono)  
+
+  * su pirata21    
+
+![img](./IMG/2.3.5.png)
