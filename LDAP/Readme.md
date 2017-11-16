@@ -107,10 +107,10 @@
 
 ![img](./IMG/2.3.3.png)
   * cat /etc/passwd | grep pirata21
-  (no me funciono)  
+  No aparece nada , porque no tiene que estar estos usuarios en este equipo
 
   * cat /etc/group | grep piratas2  
-  (no me funciono)  
+  No aparece nada , porque no tiene que estar estos usuarios en este equipo 
 
   * su pirata21    
 
