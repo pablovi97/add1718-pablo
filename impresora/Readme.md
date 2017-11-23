@@ -19,7 +19,7 @@
 
 ![img](./IMG/1.2.1.png)
 
-* Ponemos la ruta donde se guardaran los archivos que imprimiremos
+* **Ponemos la ruta donde se guardaran los archivos que imprimiremos**
 
 ![img](./IMG/1.2.3.png)
 
@@ -58,11 +58,11 @@
 
 ![img](./IMG/2.1.2.png)  
 
-* ** Agregamos la impresora en el cliente utilizando la URL, como se muestra en la siguiente pantalla:**  
+* **Agregamos la impresora en el cliente utilizando la URL, como se muestra en la siguiente pantalla:**  
 
 ![img](./IMG/2.3.7.png)
 
-![img](./IMG/2.3.8.png) 
+![img](./IMG/2.3.8.png)
 ## PASO 3 .-    
 
 >* A través del navegador pausa todos los trabajos en la impresora.
