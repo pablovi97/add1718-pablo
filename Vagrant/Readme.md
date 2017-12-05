@@ -155,7 +155,8 @@ pd: Tenerla con el guet aditios instalado
 ![img](./IMG/6.1.3.png)  
 
 
-**Le damos permisos**
+**Le damos permisos**  
+
 ![img](./IMG/6.1.4.png)
 
 **Vamos a etc/sudoers y añadimos la siguiente liena para que no nos solicite la contraseña del root cuando hagamos operaciones con el usuario vagrant**
