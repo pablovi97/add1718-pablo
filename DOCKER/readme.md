@@ -4,7 +4,7 @@
 
 > `zypper in docker`  
 
-![img](./IMG/3.1.PNG)
+![img](./IMG/3.1.png)
 
     Lo iniciamos con el comando  `systemctl start docker`   
 
@@ -174,7 +174,7 @@
 
 ![img](./IMG/7.3.png)
 
-> ejecutamos la imagen 
+> ejecutamos la imagen
 
 ![img](./IMG/7.4.png)
 
