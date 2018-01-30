@@ -35,8 +35,8 @@ Y se nos inicia el programa cuando llega el momento
 **Ahora creamos una tarea periodica para apagar el sistema**
 
 primero hacemos un acceso directo al shutdown de Windows
->Creamos acceso directo ponemos
-``SHUTDOWN /S /P``  y se hará
+>Creamos un acceso  directo , ponemos
+``SHUTDOWN /S /P`` para que se haga  
 
 ![img](./IMG/1.2.5.png)
 
