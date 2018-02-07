@@ -28,7 +28,7 @@ elsif number2 == "/"
   div = number1 / number3
 	puts div
 
-elsif ARGV.size <3  
+else   
   puts "debes poner alguna operación"
 
 end
