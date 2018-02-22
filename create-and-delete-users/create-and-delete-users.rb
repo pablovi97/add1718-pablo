@@ -1,5 +1,9 @@
 #!/usr/bin/ruby
 
+if ARGV.size !=1
+  puts "te faltan argumentos"
+  exit
+end  
 
 
 archivo = ARGV[0]
