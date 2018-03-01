@@ -1,17 +1,19 @@
 #!/usr/bin/ruby
 
-filename = ARGV[0]
-cont = cat #{filename}
-lista = cont.split("\n")
+archivo = ARGV[0]
+contenido = `cat #{archivo}`
+lineas = contenido.split("\n")
 
-if ARGV[0] != 1
-     lista.each do |x|
-        if system("id #{x}") == true
-            system("sudo userdel -r #{x}")
-        else
-            puts "Error¡¡"
-        end
-    end
-else
-    puts "Error no hay argumentos"
-end
+lineas.each do |linea|
+user = linea.split("\n")
+     if system("id #{user[0]} &> /dev/null") == true
+	       system("userdel -rf #{user[0]} &> /dev/null")
+	         puts("El usuario #{user[0]} ha sido borrado.")
+      elsif system("id #{user[0]} &> /dev/null") == false
+	        puts("El usuario #{user[0]} no existe.")
+         
+      end
+ end 
+ 
+
+
